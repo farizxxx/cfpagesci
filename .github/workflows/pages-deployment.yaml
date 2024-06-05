@@ -16,7 +16,7 @@ jobs:
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
-          apiToken: ${{ secrets.8JTscf040SjH33m7tht6J-xMCZwqlJ0ZrwKs8t4d }}
+          apiToken: 8JTscf040SjH33m7tht6J-xMCZwqlJ0ZrwKs8t4d
           accountId: fa02efab30e23e2d7b24754f46023276
           projectName: publicz
           directory: public
